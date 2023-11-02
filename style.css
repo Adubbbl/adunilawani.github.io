@@ -26,3 +26,12 @@ body{
 #liste_projets ul li a:hover{
     text-decoration: underline;
 }
+
+h2{
+    text-align: center;
+    color : navy
+}
+
+#ExtractInfoSGBD p{
+    text-align: justify;
+}

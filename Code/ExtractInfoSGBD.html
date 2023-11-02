@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Extract SQL SGBD</title>
+</head>
+<body id="ExtractInfoSGBD">
+    <h2>Extraction d'informations à partir de données stockées dans des fichiers CSV et un SGBD SQLite</h2>
+    <h3>Objectif</h3>
+    <p>
+        L'objectif de ce projet étaient de nous familiariser à <strong>la manipulation de données stockées dans des fichiers CSV et Système de gestion 
+        de base de données SQLite dans le but d'extraire de l'information</strong>. Concrètement dans le contexte, il s'agissait de retrouver l'identité 
+        d'un criminel surnommé "Batman" dans la ville de "Gotham" en explorant des fichiers de données au format
+        CSV comprise entre 360Ko et 11,50Mo ainsi qu'une base de données SQLite. Notre exploration se fait sur la base de
+        quelques informations qui nous ont été fourni en plus des données. Une de ses informations était par exemple « Batman a la trentaine dans les années 2000 ».
+    </p>
+    <p>
+        Les résultats obtenus ont été stocké dans un fichier txt. Et de plus, nous avons créé des visualisations représentant les résidents de la ville de Gotham
+    </p>
+    
+    <h3>Démarche de résolution</h3>
+    <p>
+        Pour résoudre notre enquête, nous devons réaliser des requêtes SQL sur notre base de données
+        en nous basant sur les indices disponibles. Trois démarches s’offraient à nous : regrouper tous
+        les indices en une seule requête, écrire une requête distincte pour chaque indice ou écrire
+        plusieurs requêtes dont chacune prend en compte un certain nombre d’indices. Après analyse
+        des avantages et inconvénients, nous avons opté pour la troisième possibilité c’est-à-dire
+        regrouper nos indices. Nous avons ainsi créé quatre requêtes SQL.
+        Notre première requête, présentée ci-dessous, regroupe par exemple trois indices « Batman est
+        un idividu lamba de la ville de Gotham » , « Batman a la trentaine dans les années 2000 » et
+        « Batman est un homme ».
+    </p>
+    
+</body>
+</html>
