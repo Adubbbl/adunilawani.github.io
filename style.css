@@ -1,0 +1,28 @@
+body{
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    font-size: 16px;
+}
+
+#presentation img{
+    float: left;
+    margin-right: 10px;
+}
+#presentation p{
+    text-align: justify;
+}
+
+#liste_projets{
+    margin-top: 5%;
+}
+
+#liste_projets ul li a{
+    color: green;
+    text-decoration: none;
+}
+
+#liste_projets ul li a:hover{
+    text-decoration: underline;
+}
