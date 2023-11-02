@@ -29,9 +29,26 @@ body{
 
 h2{
     text-align: center;
-    color : navy
+    color : navy;
+}
+
+h3{
+    color : navy;
 }
 
 #ExtractInfoSGBD p{
     text-align: justify;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.onScroll_h2{
+    height: 100px;
+	background: rgba(0,0,0,.45);
+	transition: 0.9s;
 }
