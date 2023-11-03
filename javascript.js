@@ -1,10 +1,9 @@
-$(window).scroll(function scroll(){
+window.addEventListener('scroll', function() {
+    var header = document.querySelector('header');
 
-    if ($(window).scrollTop() > 50){
-        $('h2').addClass('onScroll_h2');
-        // $('li').addClass('onScroll_li');
+    if (this.window.scrollY > 0){
+        header.classList.add('onScroll_h');
     } else{
-        $('h2').removeClass('onScroll_h2');
-        // $('li').removeClass('onScroll_li');
+        header.classList.remove('onScroll_h');
     }
 });

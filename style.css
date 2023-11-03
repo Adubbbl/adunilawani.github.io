@@ -47,8 +47,11 @@ h3{
     width: 50%;
 }
 
-.onScroll_h2{
-    height: 100px;
-	background: rgba(0,0,0,.45);
+.onScroll_h{
 	transition: 0.9s;
+    position: fixed;
+    background-color: rgb(223, 222, 222);
+    width: 80%;
+    top: 0px;
+    color: white;
 }
