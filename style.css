@@ -55,3 +55,7 @@ h3{
     top: 0px;
     color: white;
 }
+
+strong:hover{
+    zoom: 2;
+}
