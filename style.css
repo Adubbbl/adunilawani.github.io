@@ -1,14 +1,19 @@
 .dosis{
     font-family: "Dosis", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
 }
 
 body{
     padding-bottom: 5%;
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Dosis";
+}
+
+a{
+    color: black;
+    text-decoration: none;
 }
 
 header{
@@ -51,6 +56,42 @@ header h2{
     text-align: justify;
     padding-left: 10px;
     margin-top: 50px;
+}
+
+#lien_page{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+    margin: auto;
+}
+
+#lien_page p{
+    margin-top: 10%;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lien_page .formation{
+    background-color: aquamarine;
+}
+
+#lien_page .projet{
+    background-color: lightpink;
+}
+
+#lien_page .personnel{
+    background-color: lightgreen;
+}
+
+#lien_page .hobbie{
+    background-color: lightcoral;
 }
 
 #liste_projets{
