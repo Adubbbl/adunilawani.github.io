@@ -1,17 +1,56 @@
+.dosis{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
 body{
-    padding-top: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
     padding-bottom: 5%;
     font-size: 16px;
+    font-family: "Dosis";
+}
+
+header{
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header a{
+    color : black;
+    text-decoration: none;
+}
+
+header a:hover{
+    color : beige;
+}
+
+header h2{
+    color : black;
+}
+
+
+#presentation{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
 }
 
 #presentation img{
-    float: left;
     margin-right: 10px;
+    border-radius: 50%;
+    margin-top: 50px;
 }
-#presentation p{
+#presentation div{
     text-align: justify;
+    padding-left: 10px;
+    margin-top: 50px;
 }
 
 #liste_projets{
