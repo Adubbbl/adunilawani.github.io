@@ -9,6 +9,7 @@ body{
     padding-bottom: 5%;
     font-size: 18px;
     font-family: "Dosis";
+    margin: 0 !important;
 }
 
 a{
@@ -17,7 +18,7 @@ a{
 }
 
 header{
-    background-color: beige;
+    background: beige;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,17 +27,63 @@ header{
     padding-right: 10px;
 }
 
-header a{
+header a:hover{
     color : black;
-    text-decoration: none;
+    font-weight: bold;
 }
 
-header a:hover{
-    color : beige;
+header a:active{
+    color : black;
+    font-weight: bold;
 }
 
 header h2{
     color : black;
+}
+
+header div a{
+    margin-left: 10px;
+}
+
+header .icon{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav div a {display: none;}
+    .topnav .icon {
+      float: right;
+      display: block;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .topnav{
+        margin: 0;
+    }
+    .topnav.responsive div {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 33px;
+    }
+    .topnav.responsive h2 {
+        position: absolute;
+        left: 20px;
+        top: 0;
+    }
+    .topnav.responsive div a:not(.icon) {
+      display: block;
+      float: left;
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-bottom: 5px;
+    }
 }
 
 
@@ -56,6 +103,12 @@ header h2{
     text-align: justify;
     padding-left: 10px;
     margin-top: 50px;
+}
+
+@media screen and (max-width: 600px){
+    #presentation{
+        flex-direction: column;
+    }
 }
 
 #lien_page{
@@ -94,6 +147,14 @@ header h2{
     background-color: lightcoral;
 }
 
+
+
+@media screen and (max-width: 600px){
+    #lien_page{
+        flex-direction: column;
+    }
+}
+
 #liste_projets{
     margin-top: 5%;
 }
@@ -130,10 +191,9 @@ h3{
 .onScroll_h{
 	transition: 0.9s;
     position: fixed;
-    background-color: rgb(223, 222, 222);
-    width: 80%;
+    background-color: beige;
     top: 0px;
-    color: white;
+    width: 100%;
 }
 
 strong:hover{
