@@ -9,6 +9,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Fjalla+One&display=swap" rel="stylesheet">
+    <style>
+        button {
+            padding: 15px 30px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          button:hover {
+            background-color: #0056b3;
+          }
+    </style>
 </head>
 <body>
     <header class="topnav" id="myTopnav">
@@ -24,9 +38,10 @@
         </a>
     </header>
     
-<body>
   <h1>Bienvenue sur ma page</h1>
-  <p>Cliquez sur le bouton flottant pour accéder au questionnaire</p>
+  <p>Veuillez cliquez le bouton ci-dessous pour accéder à l'enquête.</p>
+  <button onclick="window.location.href='enquete1.html';">Accéder au questionnaire</button>
+
     
 <script>
     window.addEventListener('mouseover', initLandbot, { once: true });
